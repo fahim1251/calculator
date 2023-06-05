@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.card {
+  margin: 0 auto;
+  max-width: 350px;
+  text-align: center;
+  margin-top: 10px;
+  box-shadow: 2px 4px 4px black;
+  transition: 0.3s;
+  font-size: 0;
+}
+
+.card:hover {
+  box-shadow: 4px 8px 8px black;
+}
+
+#result {
+  height: 100px;
+  width: 335px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: right;
+  letter-spacing: 2px;
+  padding: 0 5px;
+}
+
+.btn {
+  width: 87px;
+  height: 70px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #1f2326;
+  color: white;
+}
+
+.btn-color {
+  background-color: #5f4886;
+}
+
+.btn:hover {
+  background-color: pink;
+}
